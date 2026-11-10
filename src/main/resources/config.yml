@@ -5,7 +5,7 @@ store:
   # Shown by /store and in the purchase announcement
   link: "https://store.example.net"
   # Aliases of /store, need a restart
-  aliases: [shop, online-shop]
+  aliases: ["shop", "online-shop"]
 
 purchase:
   # Seconds to wait for more /storepurchase of the same player,
@@ -16,7 +16,7 @@ purchase:
   # 8x8 head image, {player} = name
   head-url: "https://minotar.net/helm/{player}/8.png"
   # Sound for everyone online, "" = none
-  sound: entity.player.levelup
+  sound: "entity.player.levelup"
   volume: 1.0
   pitch: 1.0
 
@@ -25,7 +25,7 @@ gg-wave:
   # Seconds after an announcement in which a GG counts
   seconds: 15
   # Words that count as GG, not case sensitive
-  keywords: [gg, ggs, "good game"]
+  keywords: ["gg", "ggs", "good game"]
   # The buyer gets a reward for their own GG
   reward-buyer: false
   # Console commands for every player who writes GG, {player} = player, {buyer} = buyer
