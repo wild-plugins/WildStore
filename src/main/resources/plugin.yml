@@ -1,0 +1,18 @@
+name: WildStore
+version: '${project.version}'
+main: de.justgino.plugins.wildstore.WildStore
+description: '${project.description}'
+api-version: '26.1'
+folia-supported: true
+authors: [ JustGino ]
+
+permissions:
+  wildstore.store:
+    description: /store shows the store link
+    default: true
+  wildstore.purchase:
+    description: /storepurchase <player> announces a purchase (the store runs it from the console)
+    default: op
+  wildstore.reload:
+    description: /wildstore reload
+    default: op

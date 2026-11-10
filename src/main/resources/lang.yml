@@ -1,0 +1,31 @@
+# WildStore - texts
+# Format: MiniMessage (https://docs.advntr.dev/minimessage/format.html), "" hides a message.
+
+prefix: "<bold><gradient:#c8f7dd:#4cc38a>ᴡɪʟᴅꜱᴛᴏʀᴇ</gradient></bold> <dark_gray>» <gray>"
+
+store:
+  - ""
+  - "  <gray>Support the server in our store:"
+  - "  <click:open_url:'{link}'><hover:show_text:'<gray>Click to open'><#4cc38a><u>{link}</u></hover></click>"
+  - ""
+
+# 8 lines, each one stands next to one row of the head
+purchase:
+  - ""
+  - "   <bold><gradient:#c8f7dd:#4cc38a>STORE PURCHASE</gradient></bold>"
+  - ""
+  - "   <white><bold>{player}</bold> <gray>bought something!"
+  - "   <gray>Write <white>GG</white> in the chat for a reward"
+  - ""
+  - "   <click:open_url:'{link}'><hover:show_text:'<gray>Click to open'><#4cc38a>{link}</hover></click>"
+  - ""
+
+gg:
+  actionbar: "<bold><gradient:#c8f7dd:#4cc38a>Thanks for the GG!</gradient></bold>"
+  chat: ""
+
+messages:
+  no-permission: "<red>You don't have permission to do that."
+  reloaded: "Configuration and texts reloaded."
+  usage-purchase: "<red>Usage: <white>/storepurchase <player>"
+  announced: "Purchase of <white>{player}</white> will be announced."
